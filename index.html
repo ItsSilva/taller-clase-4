@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <section>
+        <form method="dialog">
+            <div>
+                <label for="nombre-usuario">Nombre</label>
+                <br>
+                <input type="text" name="nombre-usuario" placeholder="Escriba su nombre aquí">
+            </div>
+            <div>
+                <label for="correo-usuario">Correo</label>
+                <br>
+                <input type="email" name="correo-usuario" required>
+            </div>
+            <div>
+                <label for="url">Página persona</label>
+                <br>
+                <input type="url" placeholder="Ingrese su página persona aquí">
+            </div>
+            <div>
+                <label for="fecha">Ingrese la fecha de hoy</label>
+                <br>
+                <input type="date">
+            </div>
+            <div>
+                <label for="time">Hora actual</label>
+                <br>
+                <input type="time">
+            </div>
+            <div>
+                <label for="fecha-hora">Fecha y hora</label>
+                <br>
+                <input type="datetime-local">
+            </div>
+            <div>
+                <label for="numero">Un número dentro de -10 y 10</label>
+                <br>
+                <input type="number" min="-10" max="10">
+            </div>
+            <div>
+                <label for="telefono">Ingrese su número telefonico</label>
+                <br>
+                <input type="tel" name="telefono" required>
+            </div>
+            </br>
+            <div>
+                <input type="submit" value="Ingresar">
+            </div>
+            </br>
+            <div>
+                <input type="reset" value="reiniciar">
+            </div>
+        </form>
+    </section>
+
+</body>
+
+</html>
